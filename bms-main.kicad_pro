@@ -416,7 +416,7 @@
         "uuid": "d7e1c873-142c-4805-8303-47f5b9830fe8"
       }
     ],
-    "used_designators": "R10-11,J1,J3-6,D2,#PWR21-31,C11-13",
+    "used_designators": "J3,R12-15,U4,D3,#PWR19-20,#PWR30-46,C10,C14-21,TP5-6,FB1",
     "variants": []
   },
   "sheets": [
@@ -435,6 +435,10 @@
     [
       "3499863e-1965-40fb-acb8-8c0f2bec52b8",
       "CANTranceiver"
+    ],
+    [
+      "fcf0b0b9-3f68-46bd-a825-62168094e731",
+      "CurrentSense"
     ]
   ],
   "text_variables": {},

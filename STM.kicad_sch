@@ -2390,7 +2390,7 @@
 	)
 	(text "TPs and Termination for STLink"
 		(exclude_from_sim no)
-		(at 122.428 145.542 0)
+		(at 126.238 145.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2400,7 +2400,7 @@
 	)
 	(text "STLink"
 		(exclude_from_sim no)
-		(at 52.578 155.194 0)
+		(at 56.388 155.194 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2419,46 +2419,46 @@
 		(uuid "bb6ae9e7-c06e-4671-be3d-d41ff790faae")
 	)
 	(junction
-		(at 129.54 156.21)
+		(at 133.35 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "385591f1-e8c8-41df-aadc-fb16c2d49666")
 	)
 	(junction
-		(at 129.54 166.37)
+		(at 133.35 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d23450a4-fb47-4d0f-8be2-5d4aea9d507d")
 	)
 	(junction
-		(at 129.54 176.53)
+		(at 133.35 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8e4e830-4a7b-4f93-a7de-2abb3d57635c")
 	)
 	(junction
-		(at 129.54 186.69)
+		(at 133.35 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc4da918-3348-44ec-9d94-336b3e097188")
 	)
 	(junction
-		(at 31.75 171.45)
+		(at 35.56 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc76a0ac-a906-4802-9bd2-de4d6f52e6b1")
 	)
 	(no_connect
-		(at 39.37 176.53)
+		(at 43.18 176.53)
 		(uuid "58571153-d3cb-410a-92f8-b2cd21ec1ebc")
 	)
 	(no_connect
-		(at 39.37 173.99)
+		(at 43.18 173.99)
 		(uuid "7608cd5e-c3e9-48b9-a81d-8ff1d757fd9c")
 	)
 	(wire
 		(pts
-			(xy 31.75 146.05) (xy 31.75 149.86)
+			(xy 35.56 146.05) (xy 35.56 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2478,7 +2478,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 166.37) (xy 73.66 166.37)
+			(xy 68.58 166.37) (xy 77.47 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2488,7 +2488,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 168.91) (xy 31.75 171.45)
+			(xy 35.56 168.91) (xy 35.56 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2518,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 186.69) (xy 129.54 186.69)
+			(xy 125.73 186.69) (xy 133.35 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2538,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 168.91) (xy 31.75 168.91)
+			(xy 43.18 168.91) (xy 35.56 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2548,7 +2548,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 176.53) (xy 129.54 176.53)
+			(xy 125.73 176.53) (xy 133.35 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2558,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 184.15) (xy 129.54 186.69)
+			(xy 133.35 184.15) (xy 133.35 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2568,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 156.21) (xy 129.54 156.21)
+			(xy 125.73 156.21) (xy 133.35 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2588,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 171.45) (xy 73.66 171.45)
+			(xy 68.58 171.45) (xy 77.47 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2608,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 176.53) (xy 139.7 176.53)
+			(xy 133.35 176.53) (xy 143.51 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2618,7 +2618,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 171.45) (xy 31.75 173.99)
+			(xy 35.56 171.45) (xy 35.56 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2628,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 166.37) (xy 129.54 166.37)
+			(xy 125.73 166.37) (xy 133.35 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2648,7 +2648,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 176.53) (xy 116.84 176.53)
+			(xy 105.41 176.53) (xy 120.65 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2658,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 171.45) (xy 39.37 171.45)
+			(xy 35.56 171.45) (xy 43.18 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2678,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 186.69) (xy 139.7 186.69)
+			(xy 133.35 186.69) (xy 143.51 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2698,7 +2698,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 156.21) (xy 139.7 156.21)
+			(xy 133.35 156.21) (xy 143.51 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 173.99) (xy 73.66 173.99)
+			(xy 68.58 173.99) (xy 77.47 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2718,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 166.37) (xy 116.84 166.37)
+			(xy 105.41 166.37) (xy 120.65 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2728,7 +2728,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 176.53) (xy 73.66 176.53)
+			(xy 68.58 176.53) (xy 77.47 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2768,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 168.91) (xy 73.66 168.91)
+			(xy 68.58 168.91) (xy 77.47 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 166.37) (xy 39.37 166.37)
+			(xy 35.56 166.37) (xy 43.18 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +2788,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 156.21) (xy 116.84 156.21)
+			(xy 105.41 156.21) (xy 120.65 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2808,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 173.99) (xy 129.54 176.53)
+			(xy 133.35 173.99) (xy 133.35 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2818,7 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 163.83) (xy 129.54 166.37)
+			(xy 133.35 163.83) (xy 133.35 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2828,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 153.67) (xy 129.54 156.21)
+			(xy 133.35 153.67) (xy 133.35 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2838,7 +2838,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 166.37) (xy 139.7 166.37)
+			(xy 133.35 166.37) (xy 143.51 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2858,7 +2858,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 186.69) (xy 116.84 186.69)
+			(xy 105.41 186.69) (xy 120.65 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2868,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 157.48) (xy 31.75 166.37)
+			(xy 35.56 157.48) (xy 35.56 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2877,7 +2877,7 @@
 		(uuid "ffe48341-93c8-4288-95c1-f746c4cbad97")
 	)
 	(label "USART4_RX"
-		(at 101.6 186.69 180)
+		(at 105.41 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2887,7 +2887,7 @@
 		(uuid "06bba5f6-6a96-4ae5-aa1e-206615658166")
 	)
 	(label "SWDIO{slash}PA13"
-		(at 139.7 156.21 0)
+		(at 143.51 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2897,7 +2897,7 @@
 		(uuid "145cbb15-3578-48b3-be64-e4f15ff072ab")
 	)
 	(label "SWCLK"
-		(at 101.6 166.37 180)
+		(at 105.41 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2907,7 +2907,7 @@
 		(uuid "20d10708-706a-491e-a6f1-228c834da494")
 	)
 	(label "NRST"
-		(at 73.66 176.53 0)
+		(at 77.47 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2917,7 +2917,7 @@
 		(uuid "3c3b3657-c038-4ae6-ab67-a6556ef54881")
 	)
 	(label "PB8{slash}UART4_RX"
-		(at 139.7 186.69 0)
+		(at 143.51 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2937,7 +2937,7 @@
 		(uuid "58ce8c53-cc9a-4d4e-aca2-f2322ff78e95")
 	)
 	(label "SWDIO"
-		(at 101.6 156.21 180)
+		(at 105.41 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2947,7 +2947,7 @@
 		(uuid "62c91de1-299a-4484-9b53-cbf74a12b0f3")
 	)
 	(label "SWCLK{slash}PA14"
-		(at 139.7 166.37 0)
+		(at 143.51 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2957,7 +2957,7 @@
 		(uuid "66a7531d-dcb8-41fe-928a-915bbfb15305")
 	)
 	(label "SWDIO"
-		(at 73.66 166.37 0)
+		(at 77.47 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2977,7 +2977,7 @@
 		(uuid "9047eb0e-52a6-4eab-8f58-f5fd93ef4efc")
 	)
 	(label "USART4_RX"
-		(at 73.66 173.99 0)
+		(at 77.47 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2987,7 +2987,7 @@
 		(uuid "ccff30d9-6edd-4231-ba35-9b64bea41c02")
 	)
 	(label "USART4_TX"
-		(at 73.66 171.45 0)
+		(at 77.47 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2997,7 +2997,7 @@
 		(uuid "d144fdf3-2458-4ac9-9a68-2d99a9801e50")
 	)
 	(label "PB9{slash}UART4_TX"
-		(at 139.7 176.53 0)
+		(at 143.51 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3007,7 +3007,7 @@
 		(uuid "d6056320-d181-45d6-a1b5-1c8955736e3c")
 	)
 	(label "USART4_TX"
-		(at 101.6 176.53 180)
+		(at 105.41 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3017,7 +3017,7 @@
 		(uuid "ecc459a3-6100-4820-8789-125f874b9870")
 	)
 	(label "SWCLK"
-		(at 73.66 168.91 0)
+		(at 77.47 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3159,7 +3159,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 129.54 163.83 0)
+		(at 133.35 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3170,7 +3170,7 @@
 		(fields_autoplaced yes)
 		(uuid "175647eb-6201-4bf7-8354-106746dcb275")
 		(property "Reference" "TP2"
-			(at 132.08 159.2579 0)
+			(at 135.89 159.2579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3181,7 +3181,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 132.08 161.7979 0)
+			(at 135.89 161.7979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3192,7 +3192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 163.83 0)
+			(at 138.43 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 163.83 0)
+			(at 138.43 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3214,7 +3214,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 129.54 163.83 0)
+			(at 133.35 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3461,7 +3461,7 @@
 	)
 	(symbol
 		(lib_id "symbols:3221-10-0300-00")
-		(at 52.07 171.45 0)
+		(at 55.88 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3472,7 +3472,7 @@
 		(fields_autoplaced yes)
 		(uuid "23ae1210-1e1d-4386-9a2e-03ec0dbb92db")
 		(property "Reference" "J2"
-			(at 52.07 158.75 0)
+			(at 55.88 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3482,7 +3482,7 @@
 			)
 		)
 		(property "Value" "CONN HEADER SMD 10POS 1.27MM"
-			(at 52.07 161.29 0)
+			(at 55.88 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3492,7 +3492,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CNC_3221-10-0300-00"
-			(at 52.07 171.45 0)
+			(at 55.88 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3504,7 +3504,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/cnc-tech-llc/3221-10-0300-00/4878946?curr=cad&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart"
-			(at 52.07 171.45 0)
+			(at 55.88 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3515,7 +3515,7 @@
 			)
 		)
 		(property "Description" "Connector Header Surface Mount 10 position 0.050\" (1.27mm)"
-			(at 52.07 171.45 0)
+			(at 55.88 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3526,7 +3526,7 @@
 			)
 		)
 		(property "PARTREV" "05-FEB-2020"
-			(at 52.07 171.45 0)
+			(at 55.88 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3538,7 +3538,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 52.07 171.45 0)
+			(at 55.88 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3550,7 +3550,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.55 mm"
-			(at 52.07 171.45 0)
+			(at 55.88 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,7 +3562,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CNC Tech"
-			(at 52.07 171.45 0)
+			(at 55.88 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +3614,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 31.75 146.05 0)
+		(at 35.56 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3625,7 +3625,7 @@
 		(fields_autoplaced yes)
 		(uuid "513b4351-2cfb-4780-a49b-8df93db8550a")
 		(property "Reference" "#PWR015"
-			(at 31.75 149.86 0)
+			(at 35.56 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3636,7 +3636,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 31.75 140.97 0)
+			(at 35.56 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3646,7 +3646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 146.05 0)
+			(at 35.56 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3657,7 +3657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 146.05 0)
+			(at 35.56 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,7 +3668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 31.75 146.05 0)
+			(at 35.56 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,7 +3692,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 129.54 153.67 0)
+		(at 133.35 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3703,7 +3703,7 @@
 		(fields_autoplaced yes)
 		(uuid "602fdada-9303-453a-a121-7f97e3d4e1f3")
 		(property "Reference" "TP1"
-			(at 132.08 149.0979 0)
+			(at 135.89 149.0979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3714,7 +3714,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 132.08 151.6379 0)
+			(at 135.89 151.6379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3725,7 +3725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 153.67 0)
+			(at 138.43 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +3736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 153.67 0)
+			(at 138.43 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3747,7 +3747,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 129.54 153.67 0)
+			(at 133.35 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3771,7 +3771,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 119.38 186.69 90)
+		(at 123.19 186.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3782,7 +3782,7 @@
 		(fields_autoplaced yes)
 		(uuid "673c23e7-24b6-4064-a068-7875ed5d6bf2")
 		(property "Reference" "R9"
-			(at 119.38 180.34 90)
+			(at 123.19 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3792,7 +3792,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 119.38 182.88 90)
+			(at 123.19 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3802,7 +3802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 186.69 0)
+			(at 123.19 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3813,7 +3813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 186.69 0)
+			(at 123.19 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3824,7 +3824,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 119.38 186.69 0)
+			(at 123.19 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3851,7 +3851,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N914")
-		(at 31.75 153.67 270)
+		(at 35.56 153.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3861,7 +3861,7 @@
 		(dnp no)
 		(uuid "7a2f58e5-e0f1-4ee9-aecf-40537d866ccc")
 		(property "Reference" "D1"
-			(at 34.036 154.178 90)
+			(at 37.846 154.178 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3872,7 +3872,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 34.29 154.9399 90)
+			(at 38.1 154.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3883,7 +3883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.305 153.67 0)
+			(at 31.115 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3894,7 +3894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 153.67 0)
+			(at 35.56 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3905,7 +3905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 153.67 0)
+			(at 35.56 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3916,7 +3916,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 31.75 153.67 0)
+			(at 35.56 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3927,7 +3927,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 31.75 153.67 0)
+			(at 35.56 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3954,7 +3954,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 129.54 184.15 0)
+		(at 133.35 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3965,7 +3965,7 @@
 		(fields_autoplaced yes)
 		(uuid "93cfca7b-79d7-44a4-867f-59c0b65777f0")
 		(property "Reference" "TP4"
-			(at 132.08 179.5779 0)
+			(at 135.89 179.5779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3976,7 +3976,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 132.08 182.1179 0)
+			(at 135.89 182.1179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3987,7 +3987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 184.15 0)
+			(at 138.43 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3998,7 +3998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 184.15 0)
+			(at 138.43 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4009,7 +4009,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 129.54 184.15 0)
+			(at 133.35 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4033,7 +4033,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 119.38 176.53 90)
+		(at 123.19 176.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4044,7 +4044,7 @@
 		(fields_autoplaced yes)
 		(uuid "946a02dc-bc3f-47eb-99d4-199f3b42b808")
 		(property "Reference" "R8"
-			(at 119.38 170.18 90)
+			(at 123.19 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4054,7 +4054,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 119.38 172.72 90)
+			(at 123.19 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4064,7 +4064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 176.53 0)
+			(at 123.19 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,7 +4075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 176.53 0)
+			(at 123.19 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4086,7 +4086,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 119.38 176.53 0)
+			(at 123.19 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +4113,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 119.38 166.37 90)
+		(at 123.19 166.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4124,7 +4124,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e444d43-a14a-41cd-9809-90bc291ad543")
 		(property "Reference" "R7"
-			(at 119.38 160.02 90)
+			(at 123.19 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4134,7 +4134,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 119.38 162.56 90)
+			(at 123.19 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4144,7 +4144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 166.37 0)
+			(at 123.19 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4155,7 +4155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 166.37 0)
+			(at 123.19 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4166,7 +4166,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 119.38 166.37 0)
+			(at 123.19 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,7 +4417,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 119.38 156.21 90)
+		(at 123.19 156.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4428,7 +4428,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8b147b1-b885-496d-8f4c-306608ea1f2e")
 		(property "Reference" "R5"
-			(at 119.38 149.86 90)
+			(at 123.19 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4438,7 +4438,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 119.38 152.4 90)
+			(at 123.19 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4448,7 +4448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 156.21 0)
+			(at 123.19 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4459,7 +4459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 156.21 0)
+			(at 123.19 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4470,7 +4470,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 119.38 156.21 0)
+			(at 123.19 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +4497,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 31.75 173.99 0)
+		(at 35.56 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4508,7 +4508,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb6fac48-cf90-4ba6-938a-c60e0ced1857")
 		(property "Reference" "#PWR014"
-			(at 31.75 180.34 0)
+			(at 35.56 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,7 +4519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 179.07 0)
+			(at 35.56 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4529,7 +4529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 173.99 0)
+			(at 35.56 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 173.99 0)
+			(at 35.56 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4551,7 +4551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 31.75 173.99 0)
+			(at 35.56 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4575,7 +4575,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 129.54 173.99 0)
+		(at 133.35 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4586,7 +4586,7 @@
 		(fields_autoplaced yes)
 		(uuid "e287032e-4407-4570-bbf7-a0080126cf03")
 		(property "Reference" "TP3"
-			(at 132.08 169.4179 0)
+			(at 135.89 169.4179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4597,7 +4597,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 132.08 171.9579 0)
+			(at 135.89 171.9579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4608,7 +4608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 173.99 0)
+			(at 138.43 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,7 +4619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 173.99 0)
+			(at 138.43 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,7 +4630,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 129.54 173.99 0)
+			(at 133.35 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

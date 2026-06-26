@@ -1150,6 +1150,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "gain: 100v/v\nv_shunt = IR = 15*0.002 = 0.03V\nv_out of current sense amp = gain*v_shunt = 3V\nv_max of ADC is 3V3 > 3V\n"
+		(exclude_from_sim no)
+		(at 57.15 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10917151-c569-41dd-978c-94bf5b26447f")
+	)
+	(text "I_max = 15A\nP = 15^2(0.002)= 0.45W"
+		(exclude_from_sim no)
+		(at 57.658 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3db60530-b8ae-4617-886e-364ba6384919")
+	)
 	(junction
 		(at 125.73 97.79)
 		(diameter 0)

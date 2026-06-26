@@ -1043,12 +1043,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:SDB13HS-AQ"
+		(symbol "symbols:Diode-NC_pin"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1056,7 +1056,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1065,18 +1065,19 @@
 					)
 				)
 			)
-			(property "Value" "DIODE SCHOTTKY 30V 1A SOD323F"
-				(at 0 -2.54 0)
+			(property "Value" "TVS DIODE 36VWM 76.8VC SOT233"
+				(at -2.54 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "footprints:P39_SOD-323P"
-				(at 0 -4.445 0)
+			(property "Footprint" "footprints:P200_SOT-23"
+				(at -1.27 3.81 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1086,7 +1087,18 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/SDB13HS-AQ/22191234"
+			(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/PSOT36C/22191308"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "76.8V Clamp 9A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3 (TO-236)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1097,7 +1109,7 @@
 					)
 				)
 			)
-			(property "Description" "Diode 30 V 1A Surface Mount SOD-323F"
+			(property "ki_keywords" " Doide NC pin"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1108,32 +1120,22 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SDB13HS-AQ_0_1"
+			(symbol "Diode-NC_pin_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -2.54 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 3.81) (xy 0 2.54) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1145,7 +1147,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 0 1.27) (xy 0 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -1157,7 +1159,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 2.54 2.54) (xy 2.54 2.54) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1168,11 +1170,11 @@
 					)
 				)
 			)
-			(symbol "SDB13HS-AQ_1_1"
+			(symbol "Diode-NC_pin_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1188,9 +1190,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 2.54 2.54 180)
 					(length 2.54)
-					(name "A"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1205,9 +1207,37 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "C = 1/2piRf = 5.3nF -> 4.7nF\nf = 500kHz\nR = 60.4\n"
+		(exclude_from_sim no)
+		(at 194.818 117.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "076c94ab-3131-47e0-a9bf-5bd7f1904d2c")
 	)
 	(text "CANBus Split Termination"
 		(exclude_from_sim no)
@@ -1220,10 +1250,10 @@
 		(uuid "3f8d97af-ddbd-4627-8149-cf9310ca4286")
 	)
 	(junction
-		(at 90.17 60.96)
+		(at 138.43 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "401d77bd-5ad8-4c60-a667-5a6c297675e3")
+		(uuid "42e851da-f28d-4720-af34-a0642829c26f")
 	)
 	(junction
 		(at 106.68 60.96)
@@ -1243,6 +1273,28 @@
 		(color 0 0 0 0)
 		(uuid "6e5c2312-bd55-4477-b6c0-be7feb0092aa")
 	)
+	(junction
+		(at 137.16 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad137965-fe21-46c8-8b34-4029dc46cb10")
+	)
+	(junction
+		(at 90.17 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8b5242b-351d-4dac-9b0d-49069c5cdd5b")
+	)
+	(wire
+		(pts
+			(xy 90.17 58.42) (xy 90.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0098d96d-8157-400d-b989-46eaafd55d58")
+	)
 	(wire
 		(pts
 			(xy 195.58 76.2) (xy 195.58 78.74)
@@ -1252,16 +1304,6 @@
 			(type default)
 		)
 		(uuid "0524a801-35d6-419d-845b-b14a870f55d5")
-	)
-	(wire
-		(pts
-			(xy 57.15 60.96) (xy 76.2 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1633f28e-f739-4948-8b9c-5c54fb99f7d1")
 	)
 	(wire
 		(pts
@@ -1285,6 +1327,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 97.79) (xy 153.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a137bb9-5532-4ce6-9947-07dd1bc35426")
+	)
+	(wire
+		(pts
 			(xy 195.58 66.04) (xy 195.58 68.58)
 		)
 		(stroke
@@ -1292,6 +1344,16 @@
 			(type default)
 		)
 		(uuid "3ca6f913-b7c1-4345-ba29-fcc439164d22")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ab29b8-6930-45d4-b893-456a5a905bdc")
 	)
 	(wire
 		(pts
@@ -1365,6 +1427,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 142.24) (xy 138.43 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b83f92-c5e1-45dc-b9b8-8dfc22f476cf")
+	)
+	(wire
+		(pts
 			(xy 153.67 109.22) (xy 153.67 111.76)
 		)
 		(stroke
@@ -1372,6 +1444,16 @@
 			(type default)
 		)
 		(uuid "8ddeac56-29d0-4fa2-9fc2-2baec6a3202e")
+	)
+	(wire
+		(pts
+			(xy 137.16 97.79) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93940d86-3334-47aa-a76c-1f31b2a16735")
 	)
 	(wire
 		(pts
@@ -1425,7 +1507,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 130.81) (xy 153.67 130.81)
+			(xy 132.08 130.81) (xy 138.43 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1465,6 +1547,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 134.62) (xy 138.43 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdd9aa2-f936-4250-9930-7f563b484f83")
+	)
+	(wire
+		(pts
 			(xy 90.17 68.58) (xy 90.17 73.66)
 		)
 		(stroke
@@ -1495,17 +1587,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 90.17 60.96)
+			(xy 138.43 130.81) (xy 153.67 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2fef1e9-1e42-4adb-96d9-13d6ff10639f")
+		(uuid "f0dc7ed2-628e-4c4f-bd00-6bb2ad2d5513")
 	)
 	(wire
 		(pts
-			(xy 143.51 97.79) (xy 153.67 97.79)
+			(xy 132.08 97.79) (xy 137.16 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1547,7 +1639,7 @@
 	)
 	(hierarchical_label "CANH_P"
 		(shape input)
-		(at 143.51 97.79 180)
+		(at 132.08 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1591,7 +1683,7 @@
 	)
 	(hierarchical_label "CANL_N"
 		(shape input)
-		(at 143.51 130.81 180)
+		(at 132.08 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1599,6 +1691,84 @@
 			(justify right)
 		)
 		(uuid "b61fccff-703c-41d4-aba9-a0f42e842ebb")
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 138.43 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0313ee81-acbd-4b0c-a554-11125ca54e48")
+		(property "Reference" "#PWR051"
+			(at 138.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 138.43 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2a3aaf5-9ba0-4bde-9638-fa51d1b802fe")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
@@ -1677,6 +1847,84 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 137.16 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "460837c7-17e6-4c74-be45-a78e5c1da42e")
+		(property "Reference" "#PWR043"
+			(at 137.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 137.16 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76c7d694-1d2b-40ab-a1b6-b36afd435215")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -1837,86 +2085,6 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:SDB13HS-AQ")
-		(at 80.01 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50b17201-1d70-489b-9ec7-735d8b2d40cc")
-		(property "Reference" "D2"
-			(at 80.3275 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIODE SCHOTTKY 30V 1A SOD323F"
-			(at 80.3275 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:P39_SOD-323P"
-			(at 80.01 56.515 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/SDB13HS-AQ/22191234"
-			(at 80.01 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode 30 V 1A Surface Mount SOD-323F"
-			(at 80.01 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9451966-6962-4f93-b610-2fc37a525c62")
-		)
-		(pin "2"
-			(uuid "64be8547-44c9-47b6-9b94-669e3359f567")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2187,7 +2355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 156.21 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,6 +2487,91 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:Diode-NC_pin")
+		(at 140.97 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c7512fb-96a4-4512-b4fa-eb6ba58e7fa0")
+		(property "Reference" "D2"
+			(at 144.78 135.9534 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TVS DIODE 36VWM 76.8VC SOT233"
+			(at 144.78 138.4934 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:P200_SOT-23"
+			(at 137.16 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/PSOT36C/22191308"
+			(at 146.05 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "76.8V Clamp 9A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3 (TO-236)"
+			(at 140.97 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6ec3ecb-ad0f-42b3-8e33-2d50127f5345")
+		)
+		(pin "3"
+			(uuid "3a025bcb-8446-49a8-8f60-f0c4937e05eb")
+		)
+		(pin "2"
+			(uuid "a559b464-291a-4435-8b3b-773583877018")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2482,7 +2735,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 57.15 60.96 0)
+		(at 90.17 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2492,7 +2745,7 @@
 		(dnp no)
 		(uuid "a639d461-bf2c-4bbd-8088-be79ad91c187")
 		(property "Reference" "#PWR018"
-			(at 57.15 64.77 0)
+			(at 90.17 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,7 +2756,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 56.388 56.896 0)
+			(at 89.408 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2514,7 +2767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 60.96 0)
+			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2525,7 +2778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 60.96 0)
+			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2536,7 +2789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 57.15 60.96 0)
+			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2553,6 +2806,90 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:Diode-NC_pin")
+		(at 139.7 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b81939c4-bd5e-488f-a9b9-be5ecefe5613")
+		(property "Reference" "D1"
+			(at 100.584 102.616 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TVS DIODE 36VWM 76.8VC SOT233"
+			(at 100.584 105.156 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:P200_SOT-23"
+			(at 135.89 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/PSOT36C/22191308"
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "76.8V Clamp 9A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3 (TO-236)"
+			(at 139.7 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "488c91fd-04c9-42b8-b5d9-28a67b708f9e")
+		)
+		(pin "3"
+			(uuid "1f459fed-611f-4dfd-9200-77ae585e2ecd")
+		)
+		(pin "2"
+			(uuid "1eed3454-03b0-4e0f-8c6b-e8cf58bd51af")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2581,7 +2918,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 156.21 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)

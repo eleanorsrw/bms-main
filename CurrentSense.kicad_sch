@@ -1171,42 +1171,76 @@
 		(uuid "3db60530-b8ae-4617-886e-364ba6384919")
 	)
 	(junction
-		(at 125.73 111.76)
+		(at 121.92 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29169d7b-40c1-4be2-b8f0-2074580a11a6")
 	)
 	(junction
-		(at 143.51 99.06)
+		(at 121.92 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3917df1d-a599-449e-b524-5ccd975fa6c2")
+		(uuid "2cf2eb0c-8fd3-411d-89d5-aad4ce5a2d23")
 	)
 	(junction
-		(at 125.73 115.57)
+		(at 154.94 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "97eedfe5-2732-4be7-82fc-26b328485083")
+		(uuid "3f44aa7d-3b18-4942-8b38-32ad410c138e")
 	)
 	(junction
-		(at 125.73 120.65)
+		(at 137.16 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7c74666-3172-4d9d-883c-35f0b07beef0")
+		(uuid "795789a6-c6df-42e4-a5c9-aea5994337ad")
+	)
+	(junction
+		(at 121.92 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d9cabb6-68e3-4559-b2e8-811d55318ace")
+	)
+	(junction
+		(at 121.92 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ea6c5bc-3d94-405a-83d2-4b1f77bd0b87")
+	)
+	(junction
+		(at 137.16 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "912ba2fc-625d-4828-a99a-66bb7ec656f2")
+	)
+	(junction
+		(at 121.92 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e75ae611-e22f-4ba6-be66-8ddadde3a73e")
 	)
 	(wire
 		(pts
-			(xy 143.51 96.52) (xy 143.51 99.06)
+			(xy 119.38 99.06) (xy 121.92 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "015dc405-67e2-45ae-9547-fa0fd30049ec")
+		(uuid "0e18ebcf-645e-4bf8-bcaf-3d48b77ab366")
 	)
 	(wire
 		(pts
-			(xy 125.73 111.76) (xy 120.65 111.76)
+			(xy 193.04 114.3) (xy 193.04 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120b2053-3eea-467b-85e9-1fd4d249952c")
+	)
+	(wire
+		(pts
+			(xy 121.92 124.46) (xy 116.84 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1216,27 +1250,57 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 143.51 99.06)
+			(xy 121.92 116.84) (xy 121.92 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dbf275e-4898-4804-8602-da60618b65e2")
+		(uuid "31fbc373-ce2e-41ea-8ce7-6887d8210a90")
 	)
 	(wire
 		(pts
-			(xy 125.73 115.57) (xy 146.05 115.57)
+			(xy 121.92 93.98) (xy 137.16 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d60695e-68bb-4d1b-8953-3fb4bb610a3e")
+		(uuid "444d67f2-acb1-4de1-a714-75124d58af82")
 	)
 	(wire
 		(pts
-			(xy 120.65 106.68) (xy 125.73 106.68)
+			(xy 121.92 116.84) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53241bed-ada2-4d28-9f10-8be7b6339b4a")
+	)
+	(wire
+		(pts
+			(xy 193.04 99.06) (xy 198.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58506e4b-4e04-4918-a5fa-a1856dc135fe")
+	)
+	(wire
+		(pts
+			(xy 121.92 99.06) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae7e440-5dc8-4cc6-a215-0007d9f592cb")
+	)
+	(wire
+		(pts
+			(xy 116.84 119.38) (xy 121.92 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1246,17 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 99.06) (xy 143.51 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "707a7afc-1233-4bb6-b360-d3d87a4b6c84")
-	)
-	(wire
-		(pts
-			(xy 125.73 106.68) (xy 125.73 111.76)
+			(xy 121.92 119.38) (xy 121.92 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 104.14) (xy 120.65 104.14)
+			(xy 121.92 116.84) (xy 116.84 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1276,77 +1330,137 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 125.73) (xy 181.61 129.54)
+			(xy 154.94 85.09) (xy 154.94 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7737c3d2-ec84-4502-a46e-ad31f47b76d3")
+		(uuid "811fbf5a-2309-48f7-b511-1435f82c3ab5")
 	)
 	(wire
 		(pts
-			(xy 146.05 125.73) (xy 146.05 129.54)
+			(xy 119.38 91.44) (xy 121.92 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c83f928-97dc-461d-9826-ddf9caaa3333")
+		(uuid "8b7fa435-8085-406a-9f48-8bc17e2bd92a")
 	)
 	(wire
 		(pts
-			(xy 181.61 110.49) (xy 186.69 110.49)
+			(xy 157.48 114.3) (xy 157.48 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93cb9826-54ed-4681-8391-cee083cbf15e")
+		(uuid "8bd5b492-0d2d-4109-a35b-2b6e46ab23e2")
 	)
 	(wire
 		(pts
-			(xy 135.89 100.33) (xy 135.89 99.06)
+			(xy 137.16 109.22) (xy 157.48 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97551f56-d8bb-4d52-b090-b58c1f8d934c")
+		(uuid "8d4cab45-f247-466d-a65c-246e5cc1fe95")
 	)
 	(wire
 		(pts
-			(xy 143.51 110.49) (xy 146.05 110.49)
+			(xy 137.16 116.84) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a093f22f-2775-4fef-b420-fa3e83b35bbb")
+		(uuid "8fb5e82c-fe31-4311-8177-e79dca474622")
 	)
 	(wire
 		(pts
-			(xy 125.73 120.65) (xy 125.73 124.46)
+			(xy 119.38 93.98) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc5d949e-3d9c-4a9a-83e0-0098132ea43a")
+		(uuid "917920c0-b52d-4397-b15f-73e877b0e4d3")
 	)
 	(wire
 		(pts
-			(xy 125.73 95.25) (xy 125.73 104.14)
+			(xy 137.16 104.14) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7047e56-a5e5-4f9b-b2af-f34f3cd116cc")
+		(uuid "a70e98f0-d980-43c1-97a3-3db4aad0f2b9")
 	)
 	(wire
 		(pts
-			(xy 125.73 111.76) (xy 125.73 115.57)
+			(xy 121.92 93.98) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac565e82-b679-4ce3-91b4-06173427f30c")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad917282-fc54-41d6-ac35-3db2ee6b55de")
+	)
+	(wire
+		(pts
+			(xy 154.94 87.63) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3c333a-d471-45d6-a9cf-2cb1c6f7f0ae")
+	)
+	(wire
+		(pts
+			(xy 154.94 99.06) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a7dbb5-e6f0-4002-be08-f414fbe77ff3")
+	)
+	(wire
+		(pts
+			(xy 147.32 87.63) (xy 154.94 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca65c581-d5fe-4d51-997c-3a8b4264908c")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacdbc48-bb7e-4053-a767-a02ecff27ab2")
+	)
+	(wire
+		(pts
+			(xy 121.92 124.46) (xy 121.92 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1356,38 +1470,445 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 105.41) (xy 135.89 107.95)
+			(xy 147.32 88.9) (xy 147.32 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa087ac1-9600-44a5-87b6-b6002b3c7bc7")
+		(uuid "f1f27387-5475-4090-a144-e810f127eaf7")
 	)
 	(wire
 		(pts
-			(xy 125.73 120.65) (xy 146.05 120.65)
+			(xy 137.16 93.98) (xy 137.16 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff0eede1-feb6-4bdf-b8ba-16107769e02c")
+		(uuid "f39736ee-fe89-4099-b5f1-c40ba5d77e25")
 	)
 	(hierarchical_label "C_Sense"
 		(shape input)
-		(at 186.69 110.49 0)
+		(at 198.12 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8a7b55a3-026c-4d75-b60c-65d6d22a76f8")
+		(uuid "3155d198-4313-419d-8b33-31195d5a177c")
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 121.92 101.6 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b3f7694-b8d8-4331-8dad-55fc83cf7225")
+		(property "Reference" "#PWR049"
+			(at 121.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT_GND"
+			(at 110.998 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fb30c4e-36c7-467f-b440-e1b7c18d8ed4")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 193.04 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32f4cbdc-73b1-4801-ae60-2623a0882a28")
+		(property "Reference" "#PWR035"
+			(at 193.04 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 193.04 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ed29ebe-06bf-4677-a052-4ad1e01b68fa")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 157.48 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44122ca9-47a4-498d-8223-f00b55c5ef1c")
+		(property "Reference" "#PWR034"
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 157.48 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00e4b082-17de-4613-844c-34401144f1d5")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:INA181A3IDBVR")
+		(at 175.26 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "466ce4b3-1625-48ef-8be6-5888eb8a642c")
+		(property "Reference" "U4"
+			(at 175.26 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "INA181A3IDBVR"
+			(at 175.26 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:DBV0006A_N"
+			(at 175.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/texas-instruments/INA181A3IDBVR/8132992"
+			(at 175.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "IC CURR SENSE 1 CIRCUIT SOT23-6"
+			(at 175.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fbc20961-ba16-4e20-8ae8-4b24056e73e2")
+		)
+		(pin "5"
+			(uuid "e17bf190-fc37-484b-a143-6d45e8d9d2f2")
+		)
+		(pin "4"
+			(uuid "1da63076-2311-475a-b532-10a78d635491")
+		)
+		(pin "6"
+			(uuid "1f9eb111-00cc-4788-9132-60c303ca69cc")
+		)
+		(pin "2"
+			(uuid "ad041425-4e2b-46f6-8bdd-5bcae272eddc")
+		)
+		(pin "1"
+			(uuid "6dae814c-aca2-4812-86fe-ea134247379d")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 147.32 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "533c8745-8d90-4644-b7ef-51fb3b2978da")
+		(property "Reference" "#PWR033"
+			(at 147.32 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 147.32 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0e16312-89f5-4efd-a143-75489e1e9b64")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "symbols:XT60PW-M")
-		(at 110.49 106.68 0)
+		(at 106.68 119.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1399,7 +1920,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bd65663-b59f-4fea-9866-e97196c26182")
 		(property "Reference" "J3"
-			(at 104.14 106.6799 0)
+			(at 100.33 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1410,7 +1931,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 104.14 109.2199 0)
+			(at 100.33 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1421,7 +1942,7 @@
 			)
 		)
 		(property "Footprint" "footprints:AMASS_XT60PW-M"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1433,7 +1954,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amazon.ca/XT60PW-Female-Connector-Adapter-Battery/dp/B07VRLQ2C5"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1444,7 +1965,7 @@
 			)
 		)
 		(property "Description" "Conn Male 500VDC 30A 2.54mm"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1456,7 +1977,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1468,7 +1989,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1480,7 +2001,7 @@
 			)
 		)
 		(property "CREATOR" "KARTHIK"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1492,7 +2013,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1504,7 +2025,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1516,7 +2037,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1528,7 +2049,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1540,7 +2061,7 @@
 			)
 		)
 		(property "PARTREV" "1.2"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1552,7 +2073,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1564,7 +2085,7 @@
 			)
 		)
 		(property "MP" "XT60PW-M"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1576,7 +2097,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1588,7 +2109,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 110.49 106.68 0)
+			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1621,86 +2142,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 135.89 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f05da01-27d3-42a6-bde6-380f4f5a202c")
-		(property "Reference" "#PWR033"
-			(at 135.89 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 135.89 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ba746dd-f64d-4a1e-9fc0-ee44a2927c6f")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 135.89 102.87 0)
+		(at 147.32 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1709,9 +2152,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "60b29536-c771-4acf-a321-c26c03c9b0ae")
+		(uuid "61a58308-7cac-4ddf-a0c6-f0a445fb0bfd")
 		(property "Reference" "C10"
-			(at 138.43 101.6062 0)
+			(at 149.86 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1722,7 +2165,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 138.43 104.1462 0)
+			(at 149.86 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1733,7 +2176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 102.87 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1744,7 +2187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 102.87 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1755,7 +2198,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 135.89 102.87 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1766,10 +2209,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "515e68d0-636c-4798-b9eb-5f7a8b789722")
+			(uuid "d9db6d77-ddee-4c8f-ad73-98164e6968c9")
 		)
 		(pin "2"
-			(uuid "d42fc4c0-6c66-4c52-b9a7-f926d15ad489")
+			(uuid "14de47e5-0cd2-45aa-ae37-2fd8c17e3b9c")
 		)
 		(instances
 			(project "bms-main"
@@ -1782,7 +2225,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 143.51 96.52 0)
+		(at 154.94 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1791,9 +2234,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8badea50-ab71-42ff-8962-60bb22536b07")
+		(uuid "9ac49ed9-209a-4f82-a771-b257b2160354")
 		(property "Reference" "#PWR032"
-			(at 143.51 100.33 0)
+			(at 154.94 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1804,7 +2247,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 143.51 91.44 0)
+			(at 154.94 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1814,7 +2257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 96.52 0)
+			(at 154.94 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1825,7 +2268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 96.52 0)
+			(at 154.94 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1836,7 +2279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 143.51 96.52 0)
+			(at 154.94 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,7 +2290,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8a1c7d5-bfa5-4cea-9e74-71ec87295acb")
+			(uuid "d601b406-40a7-4169-be79-22c441f2eaa2")
 		)
 		(instances
 			(project "bms-main"
@@ -1859,170 +2302,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 125.73 95.25 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3819021-a01f-4f79-8d09-7d15899b3ef7")
-		(property "Reference" "#PWR030"
-			(at 125.73 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "48V"
-			(at 125.73 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 125.73 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d5b8535-a72e-4f54-ab9c-8c5b4db2a667")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 125.73 118.11 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b40f79df-5930-4a73-a83a-77d60a8a3334")
-		(property "Reference" "R12"
-			(at 123.19 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RES 0.002 OHM 1% 1W 0805"
-			(at 123.19 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 125.73 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/PA0805FRE870R002L/17011832"
-			(at 125.73 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2 mOhms ±1% 1W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Metal Element"
-			(at 125.73 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5624995d-7594-4cd0-8a3b-6c5e9aca9ac0")
-		)
-		(pin "2"
-			(uuid "b6c2419b-f589-4bc1-8b29-255e7d0168a8")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
-		(at 125.73 124.46 0)
+		(at 121.92 132.08 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2031,10 +2312,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b76382e6-29ff-4bd1-9035-76994d07d74d")
 		(property "Reference" "#PWR031"
-			(at 125.73 130.81 0)
+			(at 121.92 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2044,18 +2324,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 125.73 129.54 0)
+		(property "Value" "BAT_GND"
+			(at 118.364 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 124.46 0)
+			(at 121.92 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,7 +2347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 124.46 0)
+			(at 121.92 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2077,7 +2358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 125.73 124.46 0)
+			(at 121.92 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2100,8 +2381,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 146.05 129.54 0)
+		(lib_id "Device:R_Small_US")
+		(at 137.16 106.68 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2110,9 +2392,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1aefba6-1265-4464-8a09-a15b0713aab9")
-		(property "Reference" "#PWR034"
-			(at 146.05 135.89 0)
+		(uuid "c56a45cd-e838-4f5e-9fbd-11dc2643a010")
+		(property "Reference" "R12"
+			(at 134.62 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RES 0.002 OHM 1% 1W 0805"
+			(at 134.62 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2122,18 +2426,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 146.05 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 129.54 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/PA0805FRE870R002L/17011832"
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2143,19 +2437,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 146.05 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 146.05 129.54 0)
+		(property "Description" "2 mOhms ±1% 1W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Metal Element"
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2166,114 +2449,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "958ea90b-3eb5-42d7-8761-cb842649518c")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:INA181A3IDBVR")
-		(at 163.83 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c889767c-6b42-48d7-8942-566d4097db7b")
-		(property "Reference" "U4"
-			(at 163.83 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "INA181A3IDBVR"
-			(at 163.83 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:DBV0006A_N"
-			(at 163.83 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/texas-instruments/INA181A3IDBVR/8132992"
-			(at 163.83 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "IC CURR SENSE 1 CIRCUIT SOT23-6"
-			(at 163.83 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "21cd1f01-e2db-4df4-815a-fd2e4d9b0d4a")
-		)
-		(pin "5"
-			(uuid "7ff5cb40-5eca-4217-84df-a8b68130ee07")
-		)
-		(pin "4"
-			(uuid "cb1ea2b8-c556-404d-be54-68dfd47804b3")
-		)
-		(pin "6"
-			(uuid "57f4d583-e901-42ac-aad5-4ea4eb0cdbef")
+			(uuid "27dd2eff-6bb1-4cb0-91bb-f0c5de0fedcf")
 		)
 		(pin "2"
-			(uuid "ea2aae71-0ca3-4c8e-a640-60c7ef5a1859")
-		)
-		(pin "1"
-			(uuid "8a209793-3585-41c7-abe2-31634212b804")
+			(uuid "78f2e852-3126-4fa2-a32c-3072f6ba0ea6")
 		)
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
-					(reference "U4")
+					(reference "R12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 181.61 129.54 0)
+		(lib_id "symbols:XT60PW-M")
+		(at 109.22 93.98 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2282,9 +2475,43 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d977b2e1-5dde-4c0d-be08-da1c7d97ea05")
-		(property "Reference" "#PWR035"
-			(at 181.61 135.89 0)
+		(uuid "dfe3a10c-0e47-410e-8fb2-b0310d6d9174")
+		(property "Reference" "J8"
+			(at 102.87 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 102.87 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:AMASS_XT60PW-M"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.amazon.ca/XT60PW-Female-Connector-Adapter-Battery/dp/B07VRLQ2C5"
+			(at 109.22 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2294,8 +2521,209 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 181.61 134.62 0)
+		(property "Description" "Conn Male 500VDC 30A 2.54mm"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "KARTHIK"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT60PW-M"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "SH1"
+			(uuid "ec9bfec1-91b4-4aa7-be81-655f477ca438")
+		)
+		(pin "2"
+			(uuid "daa74dbe-9ff0-410b-8d31-70d936302ce1")
+		)
+		(pin "1"
+			(uuid "68895553-3026-47d0-802b-0a5d3805103e")
+		)
+		(pin "SH2"
+			(uuid "8a899e5b-cbfc-4ef2-bc8b-5790496dc99e")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 121.92 90.17 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7905e04-0281-498d-82e5-d0ef24e38d8c")
+		(property "Reference" "#PWR042"
+			(at 121.92 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PD_GND"
+			(at 121.92 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2305,7 +2733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 129.54 0)
+			(at 121.92 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,7 +2744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 129.54 0)
+			(at 121.92 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2326,8 +2754,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 181.61 129.54 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 121.92 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2338,12 +2766,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8af11c58-3eae-472a-a7ba-3a8544813dcf")
+			(uuid "ebc021c5-5bb3-4416-a1bc-a00ce0721342")
 		)
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
-					(reference "#PWR035")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

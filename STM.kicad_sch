@@ -10041,7 +10041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "CAP CER 10PF 50V C0G/NPO 0603"
 			(at 46.99 104.1462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10052,7 +10052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10063,7 +10063,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/CC0603JRNPO9BN100/302792"
 			(at 44.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10074,7 +10074,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 44.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10095,170 +10095,6 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 77.47 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "093743bc-218c-4fd8-839c-ae6a8c6478ac")
-		(property "Reference" "C26"
-			(at 80.01 101.6062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10pF"
-			(at 80.01 104.1462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 77.47 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56f52048-512c-483b-983e-0c74d9d45a33")
-		)
-		(pin "2"
-			(uuid "4985a540-2df8-44a6-bc87-269458fe955a")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 87.63 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fc038d0-7e90-4c18-a5bf-374b4754bf19")
-		(property "Reference" "C24"
-			(at 90.17 52.0762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 90.17 54.6162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 87.63 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e40c58e9-d586-4849-a3e1-f3ffbffcabe9")
-		)
-		(pin "1"
-			(uuid "e3a267e7-c248-49cd-a80e-a58f339414fc")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -10338,6 +10174,181 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 262.89 142.24 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168739d0-97fc-4799-9384-d1280dc37d78")
+		(property "Reference" "R17"
+			(at 265.43 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RES SMD 1K OHM 0.1% 1/10W 0603"
+			(at 265.43 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 262.89 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/rt0603brd071kl/1072344"
+			(at 262.89 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
+			(at 262.89 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C110776"
+			(at 262.89 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec98c991-5f45-4220-b53c-397da7cad615")
+		)
+		(pin "1"
+			(uuid "38d40d77-3532-4675-8f18-83207dccf68b")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "170c30b5-c758-4d7b-9c53-6f2902dba62d")
+		(property "Reference" "C26"
+			(at 80.01 101.6062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP CER 10PF 50V C0G/NPO 0603"
+			(at 80.01 104.1462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.47 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/CC0603JRNPO9BN100/302792"
+			(at 77.47 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 77.47 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdbdc76e-2676-44fa-8a0d-f4aae5633182")
+		)
+		(pin "2"
+			(uuid "3e69a2bf-9430-4db2-93c4-a69be7d76329")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -10583,6 +10594,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 44.45 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fc451b7-6b91-4af1-aecb-025eab11dd3d")
+		(property "Reference" "C19"
+			(at 46.99 39.3762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP CER 0.1UF 25V X7R 0603"
+			(at 46.99 41.9162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 44.45 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
+			(at 44.45 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 44.45 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "38d31a61-1319-49cb-ad13-49e140bf15c2")
+		)
+		(pin "1"
+			(uuid "9985c9f1-1a32-4f9e-bb52-a4a6451bed60")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "STM32L433CCU6_1")
 		(lib_id "symbols:STM32L433CCU6")
 		(at 99.06 30.48 0)
@@ -10802,88 +10895,6 @@
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
 					(reference "U1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 262.89 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23264981-dbee-4bc1-a477-1771327ed0af")
-		(property "Reference" "R14"
-			(at 265.43 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 265.43 143.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 262.89 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f256b025-1e8a-4b61-8287-7163e60eb430")
-		)
-		(pin "1"
-			(uuid "ef3a2c6b-4765-42b8-a189-214e59b21736")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "R14")
-					(unit 1)
 				)
 			)
 		)
@@ -11135,7 +11146,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 208.28 133.35 0)
+		(at 58.42 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11144,31 +11155,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4bd731c3-c7f9-446a-850c-b3aace4d6da6")
-		(property "Reference" "R13"
-			(at 210.82 132.0799 0)
+		(uuid "443c7ed5-6e83-48e1-b041-bb1c273b44e3")
+		(property "Reference" "R7"
+			(at 58.42 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 210.82 134.6199 0)
+		(property "Value" "RES 100 OHM 1% 1/10W 0603"
+			(at 58.42 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 208.28 133.35 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11178,8 +11187,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 208.28 133.35 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-07100RL/726888"
+			(at 58.42 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11189,8 +11198,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 208.28 133.35 0)
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 58.42 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11201,15 +11210,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "be3f0262-db95-4b45-95e2-b3f879586fdb")
+			(uuid "6059dcb7-9861-4577-bb9e-294a93fea698")
 		)
 		(pin "1"
-			(uuid "9efeb5b1-3d9b-475f-82a8-50a6d389941e")
+			(uuid "a5f94e23-6f0c-4bf9-bc4c-804080fe0d15")
 		)
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11237,7 +11246,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "RES 330 OHM 1% 1/10W 0603"
 			(at 86.36 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11247,7 +11256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.36 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11258,7 +11267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-07330RL/727162"
 			(at 86.36 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11269,7 +11278,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "330 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 86.36 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11305,9 +11314,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "56bb8106-eec4-4ca7-975c-173630f8c370")
+		(fields_autoplaced yes)
+		(uuid "5b6e0d90-6456-4a80-b940-1a35cf1ca1b2")
 		(property "Reference" "TP5"
-			(at 226.314 137.16 90)
+			(at 226.06 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11318,7 +11328,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 226.314 139.7 90)
+			(at 226.06 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11328,7 +11338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 220.98 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11362,94 +11372,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e08e4cb5-5cfd-4fea-860e-40526808dcf9")
+			(uuid "a828c5ec-0a83-441c-9904-fd1644efa7db")
 		)
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 54.61 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a961d8f-ff95-45b5-9f74-fd97ab1304d0")
-		(property "Reference" "C17"
-			(at 57.15 39.3762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 57.15 41.9162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 54.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e3032f81-f404-40fc-b966-d6fc210cc5bb")
-		)
-		(pin "1"
-			(uuid "d86cc83e-63eb-470c-bb79-37275c193687")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -11534,6 +11462,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 208.28 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6011d3ee-5ca1-4415-b7da-907604c1f727")
+		(property "Reference" "R27"
+			(at 210.82 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RES SMD 10K OHM 1% 1/8W 0603"
+			(at 210.82 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
+			(at 208.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 1% 1/8W 0603"
+			(at 208.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844918"
+			(at 208.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "016c544b-ebb3-44ba-9b9a-3f164f8f421d")
+		)
+		(pin "1"
+			(uuid "d83e33f2-66bf-49e5-80e0-a6a7a6de3cb6")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 68.58 139.7 0)
 		(unit 1)
@@ -11607,86 +11628,6 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 58.42 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "673c23e7-24b6-4064-a068-7875ed5d6bf2")
-		(property "Reference" "R9"
-			(at 58.42 166.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 58.42 168.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 58.42 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ee447566-b059-40f9-9630-3afe1f2b7cdf")
-		)
-		(pin "1"
-			(uuid "00941f89-49e9-4f98-983e-7f30dd07e205")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11927,6 +11868,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 54.61 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fcce056-42e2-42e5-9869-b55a628fa818")
+		(property "Reference" "C20"
+			(at 57.15 39.3762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP CER 0.1UF 25V X7R 0603"
+			(at 57.15 41.9162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 54.61 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
+			(at 54.61 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 54.61 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fbd07f6a-6bda-4328-a2fa-0c14630e0f49")
+		)
+		(pin "1"
+			(uuid "0a440b4f-ef36-4326-a1a2-1d75c6a34fc7")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 208.28 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "706237fb-b551-4fb6-80f9-c119bb3f8f26")
+		(property "Reference" "C27"
+			(at 210.82 143.5162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP CER 0.1UF 25V X7R 0603"
+			(at 210.82 146.0562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 208.28 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
+			(at 208.28 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 208.28 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d5bb2739-a51d-4349-9264-9abb914bd23a")
+		)
+		(pin "1"
+			(uuid "c31f245c-5af9-4175-9484-6f6939cd3e04")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:G800W302018EU")
 		(at 129.54 154.94 0)
 		(unit 1)
@@ -12102,6 +12207,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 58.42 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8be01600-9002-4e0f-9326-7e58c557ff8b")
+		(property "Reference" "R8"
+			(at 58.42 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RES 100 OHM 1% 1/10W 0603"
+			(at 58.42 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-07100RL/726888"
+			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "91170768-3d24-4654-b4fc-e83b9526cb1e")
+		)
+		(pin "1"
+			(uuid "eb08cf5d-6d66-4179-bfdb-91734f0b6780")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 44.45 107.95 0)
 		(unit 1)
@@ -12252,86 +12437,6 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 58.42 162.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "946a02dc-bc3f-47eb-99d4-199f3b42b808")
-		(property "Reference" "R8"
-			(at 58.42 156.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 58.42 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 58.42 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9d1d1610-b22f-47c8-93f9-e884aaa151b8")
-		)
-		(pin "1"
-			(uuid "1924599f-e8e7-4d35-8700-3a7b4d2bc18d")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12577,7 +12682,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 58.42 152.4 90)
+		(at 58.42 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12586,9 +12691,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e444d43-a14a-41cd-9809-90bc291ad543")
-		(property "Reference" "R7"
-			(at 58.42 146.05 90)
+		(uuid "a1b23167-2d60-416a-9409-601e7e11e38d")
+		(property "Reference" "R9"
+			(at 58.42 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12597,8 +12702,8 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 58.42 148.59 90)
+		(property "Value" "RES 100 OHM 1% 1/10W 0603"
+			(at 58.42 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12607,8 +12712,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 152.4 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12618,8 +12723,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 58.42 152.4 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-07100RL/726888"
+			(at 58.42 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12629,8 +12734,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 58.42 152.4 0)
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 58.42 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12641,15 +12746,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3b7b03e7-b71f-4e02-9653-4880e8c03a08")
+			(uuid "c39c90cd-be85-4249-b0d4-51a2b3dc46f5")
 		)
 		(pin "1"
-			(uuid "0838543e-645f-461d-a6f4-9d33dde7c324")
+			(uuid "dad7dad7-d879-4899-96a0-b7c3196bc33c")
 		)
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12678,7 +12783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "CAP CER 10NF 16V X7R 0603"
 			(at 64.77 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12689,7 +12794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.23 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12700,7 +12805,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B103KO8WPNC/20498515"
 			(at 62.23 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12711,7 +12816,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10000 pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 62.23 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12732,6 +12837,86 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 58.42 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b01fdc66-4d6b-4944-bc10-284079eeca50")
+		(property "Reference" "R13"
+			(at 58.42 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RES 100 OHM 1% 1/10W 0603"
+			(at 58.42 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-07100RL/726888"
+			(at 58.42 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 58.42 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cb2693fb-e8e7-47c9-a927-950cf46a85d4")
+		)
+		(pin "1"
+			(uuid "e192eb7a-2f3b-4923-98fe-2e76495e1b0a")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12837,7 +13022,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "RES 100 OHM 1% 1/10W 0603"
 			(at 58.42 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12847,7 +13032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.42 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12858,7 +13043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-07100RL/726888"
 			(at 58.42 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12869,7 +13054,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 58.42 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -13052,87 +13237,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 265.43 138.43 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2936b01-15fe-4450-a787-1446c4c6ede0")
-		(property "Reference" "TP6"
-			(at 270.51 137.1599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 270.51 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 265.43 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd86f2fc-3e3f-45fc-b207-ea770624f97e")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 208.28 144.78 0)
+		(at 87.63 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13141,9 +13247,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d46afbae-3823-494c-bf12-62dc3106b462")
-		(property "Reference" "C21"
-			(at 210.82 143.5162 0)
+		(uuid "d453a1c0-7c01-4ad6-b8cb-8f0105bd0ab9")
+		(property "Reference" "C24"
+			(at 90.17 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13153,8 +13259,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 210.82 146.0562 0)
+		(property "Value" "CAP CER 0.1UF 25V X7R 0603"
+			(at 90.17 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13164,8 +13270,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 208.28 144.78 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 87.63 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13175,8 +13281,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 208.28 144.78 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
+			(at 87.63 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13186,88 +13292,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 208.28 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb344269-92f0-4e63-a59f-c4ea7f040ffd")
-		)
-		(pin "2"
-			(uuid "cd606ea8-375d-4306-8187-7d708be215fc")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 58.42 182.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d52ae7bf-fd2c-44e0-a5b0-d61a64fca971")
-		(property "Reference" "R21"
-			(at 58.42 176.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 58.42 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 58.42 182.88 0)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 87.63 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13278,15 +13304,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1f200a58-5cec-4281-a8d6-e54a64a01d7a")
+			(uuid "42c909e8-5ad3-443a-888d-b01970efb644")
 		)
 		(pin "1"
-			(uuid "3ff9ed74-09db-4c4d-9f3f-69157a715402")
+			(uuid "b31602f2-f16d-47c4-a0c6-e400cbf1489c")
 		)
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "R21")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -13510,88 +13536,6 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 44.45 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d864d998-ee8d-4a0d-98f7-215fc634be42")
-		(property "Reference" "C16"
-			(at 46.99 39.3762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 46.99 41.9162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 44.45 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "18a85eae-a419-48d3-a2c1-67c71eabb66b")
-		)
-		(pin "1"
-			(uuid "8e5ea641-b339-4c7d-9415-bbb9af3c6a7e")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -13854,7 +13798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "CAP CER 1UF 16V X7R 0603"
 			(at 77.47 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13865,7 +13809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 74.93 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13876,7 +13820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
 			(at 74.93 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13887,7 +13831,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 74.93 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13908,6 +13852,85 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 138.43 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4b82970-f565-4b35-8168-6a517c2de07b")
+		(property "Reference" "TP6"
+			(at 270.51 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 265.43 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5449501c-7e1c-467f-aa4b-590a9f521d17")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/2037fe75-866c-4eb8-854b-24cd08688725"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -13936,7 +13959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "CAP CER 4.7UF 10V X5R 0603"
 			(at 36.83 41.9162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13947,7 +13970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 34.29 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13958,7 +13981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702"
 			(at 34.29 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13969,7 +13992,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 34.29 40.64 0)
 			(hide yes)
 			(show_name no)

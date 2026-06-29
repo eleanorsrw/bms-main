@@ -2152,8 +2152,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61a58308-7cac-4ddf-a0c6-f0a445fb0bfd")
-		(property "Reference" "C10"
+		(uuid "8bc9c54a-2d3a-4c36-b6a9-4b4f096842a6")
+		(property "Reference" "C28"
 			(at 149.86 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2164,7 +2164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "CAP CER 1UF 16V X7R 0603"
 			(at 149.86 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2175,7 +2175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2186,7 +2186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2197,7 +2197,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2207,17 +2207,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "d9db6d77-ddee-4c8f-ad73-98164e6968c9")
 		)
 		(pin "2"
-			(uuid "14de47e5-0cd2-45aa-ae37-2fd8c17e3b9c")
+			(uuid "010610c9-a551-4abd-bcc4-1e6f779e6daa")
+		)
+		(pin "1"
+			(uuid "1c0318c2-7cde-40ce-9d43-a8b10a1dc266")
 		)
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
-					(reference "C10")
+					(reference "C28")
 					(unit 1)
 				)
 			)

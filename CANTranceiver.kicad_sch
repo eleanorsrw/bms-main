@@ -1740,6 +1740,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 195.58 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b568ca0-4187-41d8-b138-e5c6bdbfc03b")
+		(property "Reference" "C11"
+			(at 198.12 72.3962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP CER 0.1UF 25V X7R 0603"
+			(at 198.12 74.9362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 195.58 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
+			(at 195.58 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 195.58 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf9a3831-a91d-4903-b28c-6dc2302cb055")
+		)
+		(pin "1"
+			(uuid "4aae2e99-971b-488d-8d13-5b9be150bbd3")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:Diode")
 		(at 137.16 104.14 90)
 		(unit 1)
@@ -1843,7 +1925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "CAP CER 22UF 6.3V X5R 0603"
 			(at 92.71 67.4369 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1854,7 +1936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1865,7 +1947,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/walsin-technology-corporation/0603X226M6R3CT/14836842"
 			(at 90.17 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1876,7 +1958,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "22 µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 90.17 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1981,8 +2063,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 106.68 66.04 0)
+		(lib_id "Device:R_Small_US")
+		(at 153.67 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1991,9 +2073,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46d30523-59ee-46c3-a223-9161d09eeb80")
-		(property "Reference" "C9"
-			(at 109.22 64.7762 0)
+		(uuid "460a58bc-de2a-4ab1-b6f7-632efcda3347")
+		(property "Reference" "R11"
+			(at 156.21 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2003,8 +2085,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 109.22 67.3162 0)
+		(property "Value" "RES 60.4 OHM 1% 1/10W 0603"
+			(at 156.21 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2014,8 +2096,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 66.04 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.67 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,8 +2107,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 106.68 66.04 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0760R4L/727327"
+			(at 153.67 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2036,8 +2118,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 106.68 66.04 0)
+		(property "Description" "60.4 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 153.67 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2048,15 +2130,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4f5ec31c-a94e-49e7-857b-c07ee6348afa")
+			(uuid "652e1256-c77f-48fe-bdd6-7c421e21569f")
 		)
 		(pin "1"
-			(uuid "af930cbe-f978-496f-a657-88e6843ed8eb")
+			(uuid "b10db547-5bd3-41da-b929-718e0422d247")
 		)
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
-					(reference "C9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2163,7 +2245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "CAP CER 0603 4.7NF 16V X7R 10%"
 			(at 167.64 118.1162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2174,7 +2256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2185,7 +2267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C472K4RECAUTO/8640473"
 			(at 165.1 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2196,7 +2278,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4700 pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 165.1 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2295,170 +2377,6 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 195.58 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6990723b-e743-47f7-b68e-809d9fa1284f")
-		(property "Reference" "C11"
-			(at 198.12 72.3962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 198.12 74.9362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 195.58 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9d46dda9-7551-4890-9bfc-127c8b0dcacd")
-		)
-		(pin "1"
-			(uuid "ec6fff5d-9aa0-44ec-a7c9-5ff496b09d60")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 153.67 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77d7f509-7b12-4b40-9d24-92f4ea85b115")
-		(property "Reference" "R11"
-			(at 156.21 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "60.4"
-			(at 156.21 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 153.67 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6be0af53-23fa-4804-b6bf-cc2056f11ccb")
-		)
-		(pin "1"
-			(uuid "688914a8-dd3a-4b85-a9a7-bebd2a78fae0")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2799,7 +2717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60.4"
+		(property "Value" "RES 60.4 OHM 1% 1/10W 0603"
 			(at 156.21 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,7 +2728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.67 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2821,7 +2739,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0760R4L/727327"
 			(at 153.67 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2832,7 +2750,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "60.4 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 153.67 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3113,6 +3031,88 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 106.68 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd7f48d2-c909-405f-8874-db3303a2aada")
+		(property "Reference" "C9"
+			(at 109.22 64.7762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP CER 0.1UF 25V X7R 0603"
+			(at 109.22 67.3162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 106.68 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
+			(at 106.68 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 106.68 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0e86155f-f6f8-402b-a6fa-f0548a6fc083")
+		)
+		(pin "1"
+			(uuid "d6cf183d-8b23-44a9-a4b8-73b56d55c3f9")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
+					(reference "C9")
 					(unit 1)
 				)
 			)

@@ -1043,7 +1043,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:Diode-NC_pin"
+		(symbol "symbols:Diode"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1056,7 +1056,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1065,30 +1065,18 @@
 					)
 				)
 			)
-			(property "Value" "TVS DIODE 36VWM 76.8VC SOT233"
-				(at -2.54 5.08 0)
+			(property "Value" "TVS DIODE 5VWM 12.5VC SOD-523"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "footprints:P200_SOT-23"
-				(at -1.27 3.81 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/PSOT36C/22191308"
-				(at 0 -5.08 0)
+			(property "Footprint" "footprints:P38_SOD-523"
+				(at 0 1.27 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1098,7 +1086,18 @@
 					)
 				)
 			)
-			(property "Description" "76.8V Clamp 9A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3 (TO-236)"
+			(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/ESD5B5V0WT/22189401"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "12.5V Clamp 4A (8/20µs) Ipp Tvs Diode Surface Mount SOD-523"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1109,7 +1108,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" " Doide NC pin"
+			(property "ki_keywords" "Diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1120,10 +1119,10 @@
 					)
 				)
 			)
-			(symbol "Diode-NC_pin_0_1"
+			(symbol "Diode_0_1"
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy 0 2.54)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1135,7 +1134,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 3.81) (xy 0 2.54) (xy -2.54 1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1147,22 +1146,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.81)
+						(xy 1.27 -1.27) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -1170,9 +1157,9 @@
 					)
 				)
 			)
-			(symbol "Diode-NC_pin_1_1"
+			(symbol "Diode_1_1"
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -1190,7 +1177,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 2.54 180)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "C"
 						(effects
@@ -1200,24 +1187,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1765,6 +1734,87 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:Diode")
+		(at 137.16 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11536d4f-c957-4ece-a8e4-6caf894cc048")
+		(property "Reference" "D4"
+			(at 130.302 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TVS DIODE 5VWM 12.5VC SOD-523"
+			(at 99.314 105.156 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:P38_SOD-523"
+			(at 135.89 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/ESD5B5V0WT/22189401"
+			(at 139.7 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12.5V Clamp 4A (8/20µs) Ipp Tvs Diode Surface Mount SOD-523"
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aec320f4-6017-43d8-8a08-79ae0f38dc93")
+		)
+		(pin "1"
+			(uuid "d60f5221-e63f-4717-bb1f-3ab5561c658c")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2493,91 +2543,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:Diode-NC_pin")
-		(at 140.97 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c7512fb-96a4-4512-b4fa-eb6ba58e7fa0")
-		(property "Reference" "D2"
-			(at 144.78 135.9534 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS DIODE 36VWM 76.8VC SOT233"
-			(at 144.78 138.4934 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:P200_SOT-23"
-			(at 137.16 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/PSOT36C/22191308"
-			(at 146.05 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "76.8V Clamp 9A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3 (TO-236)"
-			(at 140.97 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6ec3ecb-ad0f-42b3-8e33-2d50127f5345")
-		)
-		(pin "3"
-			(uuid "3a025bcb-8446-49a8-8f60-f0c4937e05eb")
-		)
-		(pin "2"
-			(uuid "a559b464-291a-4435-8b3b-773583877018")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 90.17 73.66 0)
 		(unit 1)
@@ -2806,90 +2771,6 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:Diode-NC_pin")
-		(at 139.7 102.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b81939c4-bd5e-488f-a9b9-be5ecefe5613")
-		(property "Reference" "D1"
-			(at 100.584 102.616 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS DIODE 36VWM 76.8VC SOT233"
-			(at 100.584 105.156 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:P200_SOT-23"
-			(at 135.89 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/PSOT36C/22191308"
-			(at 144.78 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "76.8V Clamp 9A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3 (TO-236)"
-			(at 139.7 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "488c91fd-04c9-42b8-b5d9-28a67b708f9e")
-		)
-		(pin "3"
-			(uuid "1f459fed-611f-4dfd-9200-77ae585e2ecd")
-		)
-		(pin "2"
-			(uuid "1eed3454-03b0-4e0f-8c6b-e8cf58bd51af")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3150,6 +3031,88 @@
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:Diode")
+		(at 138.43 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c33341a4-337b-404c-be61-8ef5c1841ddf")
+		(property "Reference" "D5"
+			(at 140.97 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TVS DIODE 5VWM 12.5VC SOD-523"
+			(at 140.97 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:P38_SOD-523"
+			(at 137.16 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/ESD5B5V0WT/22189401"
+			(at 140.97 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12.5V Clamp 4A (8/20µs) Ipp Tvs Diode Surface Mount SOD-523"
+			(at 138.43 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf1112b6-2c1d-451f-b796-4e21037bb2ca")
+		)
+		(pin "1"
+			(uuid "9264e7d7-703c-4f75-a6f3-382469415c75")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/3499863e-1965-40fb-acb8-8c0f2bec52b8"
+					(reference "D5")
 					(unit 1)
 				)
 			)

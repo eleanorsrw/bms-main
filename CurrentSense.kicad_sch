@@ -1152,7 +1152,7 @@
 	)
 	(text "gain: 100v/v\nv_shunt = IR = 15*0.002 = 0.03V\nv_out of current sense amp = gain*v_shunt = 3V\nv_max of ADC is 3V3 > 3V\n"
 		(exclude_from_sim no)
-		(at 63.5 107.696 0)
+		(at 60.452 98.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1162,7 +1162,7 @@
 	)
 	(text "I_max = 15A\nP = 15^2(0.002)= 0.45W"
 		(exclude_from_sim no)
-		(at 64.008 117.348 0)
+		(at 60.96 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1181,12 +1181,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cf2eb0c-8fd3-411d-89d5-aad4ce5a2d23")
-	)
-	(junction
-		(at 154.94 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f44aa7d-3b18-4942-8b38-32ad410c138e")
 	)
 	(junction
 		(at 137.16 109.22)
@@ -1211,6 +1205,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "912ba2fc-625d-4828-a99a-66bb7ec656f2")
+	)
+	(junction
+		(at 154.94 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae395ab5-ca4d-4968-b9ed-289702a05430")
 	)
 	(junction
 		(at 121.92 91.44)
@@ -1300,6 +1300,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 74.93) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa85a25-1199-4e77-8f94-6b54bb4fa609")
+	)
+	(wire
+		(pts
 			(xy 116.84 119.38) (xy 121.92 119.38)
 		)
 		(stroke
@@ -1330,16 +1340,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 85.09) (xy 154.94 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "811fbf5a-2309-48f7-b511-1435f82c3ab5")
-	)
-	(wire
-		(pts
 			(xy 119.38 91.44) (xy 121.92 91.44)
 		)
 		(stroke
@@ -1347,6 +1347,16 @@
 			(type default)
 		)
 		(uuid "8b7fa435-8085-406a-9f48-8bc17e2bd92a")
+	)
+	(wire
+		(pts
+			(xy 154.94 99.06) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b999109-f5d8-48f5-b536-71ee9b1db4f1")
 	)
 	(wire
 		(pts
@@ -1367,6 +1377,16 @@
 			(type default)
 		)
 		(uuid "8d4cab45-f247-466d-a65c-246e5cc1fe95")
+	)
+	(wire
+		(pts
+			(xy 154.94 73.66) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef25193-af76-4ef0-9ce3-f5e67fffef4c")
 	)
 	(wire
 		(pts
@@ -1420,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 87.63) (xy 154.94 99.06)
+			(xy 154.94 69.85) (xy 154.94 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1430,33 +1450,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 99.06) (xy 157.48 99.06)
+			(xy 161.29 80.01) (xy 161.29 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5a7dbb5-e6f0-4002-be08-f414fbe77ff3")
-	)
-	(wire
-		(pts
-			(xy 147.32 87.63) (xy 154.94 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca65c581-d5fe-4d51-997c-3a8b4264908c")
-	)
-	(wire
-		(pts
-			(xy 147.32 93.98) (xy 147.32 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cacdbc48-bb7e-4053-a767-a02ecff27ab2")
+		(uuid "b14dc9b2-a2ba-4f69-a26c-80f7d48a70ba")
 	)
 	(wire
 		(pts
@@ -1470,13 +1470,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 147.32 87.63)
+			(xy 154.94 73.66) (xy 161.29 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1f27387-5475-4090-a144-e810f127eaf7")
+		(uuid "df8a9810-707c-4c82-a856-429c09b73b31")
 	)
 	(wire
 		(pts
@@ -1829,84 +1829,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 147.32 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "533c8745-8d90-4644-b7ef-51fb3b2978da")
-		(property "Reference" "#PWR033"
-			(at 147.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 147.32 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0e16312-89f5-4efd-a143-75489e1e9b64")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:XT60PW-M")
 		(at 106.68 119.38 0)
 		(mirror y)
@@ -2142,8 +2064,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 147.32 91.44 0)
+		(lib_id "power:GNDREF")
+		(at 161.29 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2152,9 +2074,87 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8bc9c54a-2d3a-4c36-b6a9-4b4f096842a6")
+		(uuid "8117b047-b3c2-49cf-9e79-27685b65f828")
+		(property "Reference" "#PWR033"
+			(at 161.29 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 161.29 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f09f71e-ce75-43d5-aee3-ac880e007070")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/fcf0b0b9-3f68-46bd-a825-62168094e731"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "875c2dac-c3b5-4706-98af-3ed1688a0e23")
 		(property "Reference" "C28"
-			(at 149.86 90.1762 0)
+			(at 163.83 76.2062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2165,7 +2165,7 @@
 			)
 		)
 		(property "Value" "CAP CER 1UF 16V X7R 0603"
-			(at 149.86 92.7162 0)
+			(at 163.83 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2176,7 +2176,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 147.32 91.44 0)
+			(at 161.29 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2187,7 +2187,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
-			(at 147.32 91.44 0)
+			(at 161.29 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2198,7 +2198,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 147.32 91.44 0)
+			(at 161.29 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2209,10 +2209,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "010610c9-a551-4abd-bcc4-1e6f779e6daa")
+			(uuid "e0e8ac83-53d1-4e7b-9d70-b8679da37516")
 		)
 		(pin "1"
-			(uuid "1c0318c2-7cde-40ce-9d43-a8b10a1dc266")
+			(uuid "6f3d2e5c-f3e3-4fd9-be15-063a17c4a5ff")
 		)
 		(instances
 			(project "bms-main"
@@ -2225,7 +2225,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 154.94 85.09 0)
+		(at 154.94 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2236,7 +2236,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ac49ed9-209a-4f82-a771-b257b2160354")
 		(property "Reference" "#PWR032"
-			(at 154.94 88.9 0)
+			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 154.94 80.01 0)
+			(at 154.94 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2257,7 +2257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 85.09 0)
+			(at 154.94 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2268,7 +2268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 85.09 0)
+			(at 154.94 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 85.09 0)
+			(at 154.94 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

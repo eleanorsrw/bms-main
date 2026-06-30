@@ -10150,7 +10150,7 @@
 		)
 		(uuid "51bf0a86-a2de-42a7-bbee-035f07d2b30d")
 	)
-	(hierarchical_label "PB11{slash}CAN1_RX"
+	(hierarchical_label "PA11{slash}CAN1_RX"
 		(shape input)
 		(at 238.76 73.66 180)
 		(effects
@@ -10161,7 +10161,7 @@
 		)
 		(uuid "56a2efa6-9e41-4fd5-b1e5-5b21e3f08ee7")
 	)
-	(hierarchical_label "PB12{slash}CAN1_TX"
+	(hierarchical_label "PA12{slash}CAN1_TX"
 		(shape input)
 		(at 238.76 76.2 180)
 		(effects

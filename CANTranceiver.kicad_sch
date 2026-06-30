@@ -741,7 +741,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -2.54 0)
+					(at 0 0 0)
 					(length 7.62)
 					(name "TXD"
 						(effects
@@ -759,7 +759,7 @@
 					)
 				)
 				(pin power_out line
-					(at 0 -7.62 0)
+					(at 0 -2.54 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -777,7 +777,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 0 0)
+					(at 0 -5.08 0)
 					(length 7.62)
 					(name "VCC"
 						(effects
@@ -795,7 +795,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -5.08 0)
+					(at 0 -7.62 0)
 					(length 7.62)
 					(name "RXD"
 						(effects

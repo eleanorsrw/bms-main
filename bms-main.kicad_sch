@@ -2480,7 +2480,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PB9{slash}UART4_TX" input
+		(pin "PB10{slash}UART3_TX" input
 			(at 111.76 71.12 180)
 			(uuid "3f50e162-5bce-4691-9724-6edae44dae3c")
 			(effects
@@ -2490,7 +2490,7 @@
 				(justify left)
 			)
 		)
-		(pin "PB8{slash}UART4_RX" input
+		(pin "PB11{slash}UART4_RX" input
 			(at 111.76 73.66 180)
 			(uuid "30d38b08-4479-4851-b6a1-02b9a94ff734")
 			(effects
@@ -2560,7 +2560,7 @@
 				(justify left)
 			)
 		)
-		(pin "PA8{slash}STBY" input
+		(pin "PA7{slash}STBY" input
 			(at 156.21 54.61 0)
 			(uuid "9d3803f1-6209-46d0-9ad7-cccf6d40f9f9")
 			(effects
@@ -2570,7 +2570,7 @@
 				(justify right)
 			)
 		)
-		(pin "PB6{slash}FDCAN2_TX" input
+		(pin "PA12{slash}CAN1_TX" input
 			(at 156.21 59.69 0)
 			(uuid "ed4c2b55-3656-4d44-9a76-644627c0faac")
 			(effects
@@ -2580,7 +2580,7 @@
 				(justify right)
 			)
 		)
-		(pin "PB5{slash}FDCAN2_RX" input
+		(pin "PA11{slash}CAN1_RX" input
 			(at 156.21 57.15 0)
 			(uuid "98176508-c77b-42da-ac47-d1d0f6c9b83a")
 			(effects
@@ -2590,7 +2590,7 @@
 				(justify right)
 			)
 		)
-		(pin "PB0{slash}ADC1_IN6" input
+		(pin "PA0{slash}ADC1_IN5" input
 			(at 156.21 86.36 0)
 			(uuid "3a700bbf-3a45-4524-8239-c3d94f4a3720")
 			(effects

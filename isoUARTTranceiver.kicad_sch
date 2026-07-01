@@ -1640,7 +1640,7 @@
 	)
 	(text "damping\nresistor"
 		(exclude_from_sim no)
-		(at 40.132 140.208 0)
+		(at 54.356 141.732 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1697,6 +1697,12 @@
 		(uuid "18db6c5e-8f4d-408e-b3c9-9bdb9c112850")
 	)
 	(junction
+		(at 60.96 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b2fb0e6-62e9-4ff7-92dd-437e0a74c5d5")
+	)
+	(junction
 		(at 199.39 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1745,6 +1751,12 @@
 		(uuid "4c2e0bce-d3cc-4778-8ba4-b1b658b7a64e")
 	)
 	(junction
+		(at 60.96 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "565cde52-2156-4593-998f-b77c2e146246")
+	)
+	(junction
 		(at 220.98 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1775,7 +1787,7 @@
 		(uuid "80fc3c93-03a4-492d-987e-a48a67eb1920")
 	)
 	(junction
-		(at 105.41 128.27)
+		(at 110.49 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "824d97c5-d507-49f1-b4c1-6c7b19f6c71c")
@@ -1787,7 +1799,7 @@
 		(uuid "85600bf5-ef1e-40f9-91d2-f74d69c8dcde")
 	)
 	(junction
-		(at 104.14 153.67)
+		(at 111.76 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "889df96e-0243-49a1-93f4-73fae1c0fbec")
@@ -1803,12 +1815,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99f9b466-b288-4ea1-917b-826de1dc3469")
-	)
-	(junction
-		(at 85.09 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9aaa20e5-d184-4cf4-a8c5-867c58b0dcd0")
 	)
 	(junction
 		(at 133.35 64.77)
@@ -1906,12 +1912,6 @@
 		(color 0 0 0 0)
 		(uuid "e0dc79d3-3cd3-49a4-9eaf-d29a7dc9015b")
 	)
-	(junction
-		(at 85.09 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef14b767-cb37-47a7-abbb-be941ab65fc7")
-	)
 	(no_connect
 		(at 196.85 85.09)
 		(uuid "089a004b-4611-45ed-8762-472e933f6c23")
@@ -1976,16 +1976,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 153.67) (xy 95.25 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1286a574-3e17-4883-a008-4fbfbb399f30")
-	)
-	(wire
-		(pts
 			(xy 133.35 54.61) (xy 135.89 54.61)
 		)
 		(stroke
@@ -1996,7 +1986,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 128.27) (xy 105.41 128.27)
+			(xy 114.3 129.54) (xy 110.49 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 153.67) (xy 107.95 153.67)
+			(xy 111.76 154.94) (xy 107.95 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2126,7 +2116,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 153.67) (xy 85.09 153.67)
+			(xy 60.96 129.54) (xy 60.96 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2340f3a6-2800-4b5c-a73e-59f0c005e212")
+	)
+	(wire
+		(pts
+			(xy 120.65 154.94) (xy 125.73 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2246,6 +2246,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 144.78) (xy 60.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a09efba-e2d3-4f9c-9ec7-39e774bcee46")
+	)
+	(wire
+		(pts
 			(xy 55.88 95.25) (xy 55.88 97.79)
 		)
 		(stroke
@@ -2316,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 153.67) (xy 104.14 156.21)
+			(xy 111.76 154.94) (xy 111.76 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2406,7 +2416,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 135.89) (xy 105.41 138.43)
+			(xy 60.96 154.94) (xy 54.61 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5610e40d-62b4-412c-beb0-4675d5fb9c41")
+	)
+	(wire
+		(pts
+			(xy 110.49 137.16) (xy 110.49 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2576,7 +2596,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 161.29) (xy 104.14 163.83)
+			(xy 111.76 162.56) (xy 111.76 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2606,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 153.67) (xy 104.14 153.67)
+			(xy 115.57 154.94) (xy 111.76 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 128.27) (xy 85.09 128.27)
+			(xy 119.38 129.54) (xy 125.73 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2636,16 +2656,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 128.27) (xy 96.52 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731a268c-036c-43e2-b571-55195a307f46")
-	)
-	(wire
-		(pts
 			(xy 199.39 72.39) (xy 199.39 74.93)
 		)
 		(stroke
@@ -2656,23 +2666,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 128.27) (xy 85.09 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777167bb-8095-464c-8cf2-c6fae616052c")
-	)
-	(wire
-		(pts
-			(xy 114.3 128.27) (xy 128.27 128.27)
+			(xy 101.6 129.54) (xy 60.96 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7b6c639e-1d34-4591-afa4-85f27d93f5d4")
+	)
+	(wire
+		(pts
+			(xy 60.96 129.54) (xy 54.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbb17b7-1138-4ab2-957c-7bfe1dc7e199")
 	)
 	(wire
 		(pts
@@ -2726,7 +2736,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 128.27) (xy 105.41 130.81)
+			(xy 110.49 129.54) (xy 110.49 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3246,16 +3256,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 143.51) (xy 85.09 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df04f012-b433-45bb-a19e-d42cda9a603a")
-	)
-	(wire
-		(pts
 			(xy 133.35 44.45) (xy 135.89 44.45)
 		)
 		(stroke
@@ -3276,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 153.67) (xy 128.27 153.67)
+			(xy 102.87 154.94) (xy 60.96 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 128.27) (xy 109.22 128.27)
+			(xy 110.49 129.54) (xy 106.68 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3475,22 +3475,22 @@
 		(uuid "721d1cb6-1b97-4b9a-aaad-f9a0cdc5f9cc")
 	)
 	(label "IFH_H_Filt"
-		(at 80.01 153.67 180)
+		(at 125.73 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8acb1f22-a7b3-4dff-9290-00e5832afb85")
 	)
 	(label "IFH_L_Filt"
-		(at 81.28 128.27 180)
+		(at 125.73 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8b5a227a-f9de-405d-985c-f2db7b9720f6")
 	)
@@ -3527,12 +3527,12 @@
 	)
 	(hierarchical_label "IFH_H"
 		(shape input)
-		(at 128.27 153.67 0)
+		(at 54.61 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "564e8690-0527-4deb-8c5e-0a357da4eb6f")
 	)
@@ -3571,12 +3571,12 @@
 	)
 	(hierarchical_label "IFH_L"
 		(shape input)
-		(at 128.27 128.27 0)
+		(at 54.61 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c27e216f-146f-41f9-a6f2-a744c9068e48")
 	)
@@ -3626,98 +3626,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 85.09 140.97 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e8b7fdd-0541-47f6-ab95-a12d73823c1b")
-		(property "Reference" "R16"
-			(at 77.216 138.684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RES SMD 1K OHM 0.1% 1/10W 0603"
-			(at 45.212 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/rt0603brd071kl/1072344"
-			(at 85.09 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
-			(at 85.09 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C110776"
-			(at 85.09 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0a848cd0-c82f-492a-9267-80fbfec0e4ff")
-		)
-		(pin "1"
-			(uuid "836944cd-33be-456c-a812-2ae5024cec1f")
-		)
-		(instances
-			(project "bms-main"
-				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
 		(at 55.88 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3728,7 +3636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16347fc5-94ef-4236-952b-4f3f3539418b")
-		(property "Reference" "R23"
+		(property "Reference" "R2"
 			(at 58.42 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3803,7 +3711,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "R23")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3811,7 +3719,8 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 104.14 163.83 0)
+		(at 111.76 165.1 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3821,8 +3730,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17737fbd-495c-461c-ba21-59a6250f50e2")
-		(property "Reference" "#PWR013"
-			(at 104.14 170.18 0)
+		(property "Reference" "#PWR010"
+			(at 111.76 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3833,7 +3742,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 168.91 0)
+			(at 111.76 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3843,7 +3752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 163.83 0)
+			(at 111.76 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,7 +3763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 163.83 0)
+			(at 111.76 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3865,7 +3774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 104.14 163.83 0)
+			(at 111.76 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +3790,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e0a99fd-3b45-4748-991f-68794bf1e73b")
-		(property "Reference" "R24"
+		(property "Reference" "R1"
 			(at 58.42 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,7 +3883,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "R24")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3992,7 +3901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2244ae52-c171-4af6-bb6f-42073183c948")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR021"
 			(at 241.3 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4052,7 +3961,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR05")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4060,7 +3969,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 105.41 133.35 0)
+		(at 110.49 134.62 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4069,8 +3979,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2458ff23-dfe2-491f-801b-78f4bdb575a3")
-		(property "Reference" "C5"
-			(at 110.236 132.588 0)
+		(property "Reference" "C2"
+			(at 105.664 133.858 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4081,7 +3991,7 @@
 			)
 		)
 		(property "Value" "CAP CER 0.22UF 25V X7R 0603"
-			(at 110.49 134.874 0)
+			(at 105.41 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4092,7 +4002,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 105.41 133.35 0)
+			(at 110.49 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4103,7 +4013,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GCM188R71E224KA55D/1765183"
-			(at 105.41 133.35 0)
+			(at 110.49 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4114,7 +4024,7 @@
 			)
 		)
 		(property "Description" "0.22 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 105.41 133.35 0)
+			(at 110.49 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4133,7 +4043,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4151,7 +4061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "263bf9cb-77fe-4553-abc5-ea0719e7ade4")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 214.63 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4215,7 +4125,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4233,7 +4143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e9d401f-969f-41fa-912e-cd42e763b7b5")
-		(property "Reference" "R25"
+		(property "Reference" "R11"
 			(at 223.52 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +4218,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "R25")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4325,7 +4235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36158556-338b-428f-9900-60ec66e0a954")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR015"
 			(at 212.09 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4386,7 +4296,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR010")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4403,7 +4313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ab723d1-bff4-4e85-92a1-ea5e5e2c0719")
-		(property "Reference" "C18"
+		(property "Reference" "C8"
 			(at 243.84 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4467,7 +4377,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "C18")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4475,7 +4385,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 97.79 153.67 90)
+		(at 118.11 154.94 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4485,7 +4396,7 @@
 		(dnp no)
 		(uuid "3dae81c0-3c5e-4bf5-add1-13fa2f4c3830")
 		(property "Reference" "R6"
-			(at 98.044 157.48 90)
+			(at 117.856 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4495,7 +4406,7 @@
 			)
 		)
 		(property "Value" "RES SMD 39 OHM 5% 1/8W 0603"
-			(at 84.328 159.766 90)
+			(at 131.572 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4505,7 +4416,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 97.79 153.67 0)
+			(at 118.11 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,7 +4427,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/crcw060339r0jnea/1174195"
-			(at 97.79 153.67 0)
+			(at 118.11 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4527,7 +4438,7 @@
 			)
 		)
 		(property "Description" "39 Ohms ±5% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 97.79 153.67 0)
+			(at 118.11 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4538,7 +4449,7 @@
 			)
 		)
 		(property "LCSC" "C2079967"
-			(at 97.79 153.67 90)
+			(at 118.11 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4574,7 +4485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42f79531-9592-48fd-9bbc-a2304e5a0a30")
-		(property "Reference" "R20"
+		(property "Reference" "R3"
 			(at 58.166 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4649,7 +4560,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "R20")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4666,7 +4577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43ac6948-bb08-4659-b848-3faf7644546f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR017"
 			(at 214.63 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4727,7 +4638,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR07")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4745,7 +4656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "467ae29f-ee23-4f42-a9a0-020d18b26440")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR018"
 			(at 214.63 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4805,7 +4716,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR04")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4823,7 +4734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49e5634e-e0f0-4cde-ab9a-c46ed27bfe93")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR09"
 			(at 55.88 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4883,7 +4794,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR037")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4901,7 +4812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "525f3c61-6175-4041-9826-bcb777aa1d2e")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 214.63 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4976,7 +4887,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "R2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4994,7 +4905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59251b47-e5ee-4e35-aa13-d728095ce402")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR014"
 			(at 203.2 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5054,7 +4965,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR03")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5062,7 +4973,8 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 105.41 138.43 0)
+		(at 110.49 139.7 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5073,7 +4985,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b920eb4-5c05-4c3b-8a6d-0cde71d901d3")
 		(property "Reference" "#PWR011"
-			(at 105.41 144.78 0)
+			(at 110.49 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5084,7 +4996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 143.51 0)
+			(at 110.49 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5094,7 +5006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 138.43 0)
+			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5105,7 +5017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 138.43 0)
+			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5116,7 +5028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 105.41 138.43 0)
+			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5150,7 +5062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75c8777d-f836-4360-8e1a-ffa3cdf47e8b")
-		(property "Reference" "C1"
+		(property "Reference" "C6"
 			(at 217.17 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +5126,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "C1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5232,7 +5144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75cca2c2-1bca-485e-a216-4b0916be478a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR016"
 			(at 212.09 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5292,7 +5204,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR09")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5310,7 +5222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd8e095-f35f-48d7-8803-65ff2df552c7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR08"
 			(at 55.88 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5370,7 +5282,100 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR036")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 60.96 142.24 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d347443-b918-4c0c-8a90-ef3e8ca9183e")
+		(property "Reference" "R5"
+			(at 68.834 139.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RES SMD 1K OHM 0.1% 1/10W 0603"
+			(at 100.838 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/rt0603brd071kl/1072344"
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C110776"
+			(at 60.96 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb37bf2b-f7a7-484d-94e2-0b7dbae3582d")
+		)
+		(pin "1"
+			(uuid "c5c2c6cb-4601-4c66-bc0f-f987bbebf815")
+		)
+		(instances
+			(project "bms-main"
+				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5378,7 +5383,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 111.76 128.27 90)
+		(at 104.14 129.54 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5387,8 +5393,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8098b675-14bf-47c2-b309-33f05bfa73a0")
-		(property "Reference" "C6"
-			(at 112.014 121.92 90)
+		(property "Reference" "C4"
+			(at 103.886 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5398,7 +5404,7 @@
 			)
 		)
 		(property "Value" "CAP CER 0603 1NF 16V X7R 10%"
-			(at 127 124.714 90)
+			(at 88.9 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5408,7 +5414,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 111.76 128.27 0)
+			(at 104.14 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +5425,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C102K4RECAUTO/8640472"
-			(at 111.76 128.27 0)
+			(at 104.14 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,7 +5436,7 @@
 			)
 		)
 		(property "Description" "1000 pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 111.76 128.27 0)
+			(at 104.14 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5449,7 +5455,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5467,7 +5473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c895fd-be36-4629-824a-065a15857014")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR07"
 			(at 55.88 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5527,7 +5533,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR014")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5535,7 +5541,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 158.75 0)
+		(at 111.76 160.02 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5545,8 +5552,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e152e0-6d32-4f07-9ce9-cc394ea180c4")
-		(property "Reference" "C7"
-			(at 106.68 157.4862 0)
+		(property "Reference" "C1"
+			(at 109.22 158.7562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5557,7 +5564,7 @@
 			)
 		)
 		(property "Value" "CAP CER 0.22UF 25V X7R 0603"
-			(at 106.68 160.0262 0)
+			(at 109.22 161.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5568,7 +5575,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 158.75 0)
+			(at 111.76 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5579,7 +5586,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GCM188R71E224KA55D/1765183"
-			(at 104.14 158.75 0)
+			(at 111.76 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5590,7 +5597,7 @@
 			)
 		)
 		(property "Description" "0.22 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 104.14 158.75 0)
+			(at 111.76 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5609,7 +5616,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5627,7 +5634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89666f3f-83ad-4fd5-9599-b2d61ca58fbd")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR06"
 			(at 55.88 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5687,7 +5694,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR012")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5705,7 +5712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a99ec3-f230-43da-8670-29defedda03b")
-		(property "Reference" "C14"
+		(property "Reference" "C7"
 			(at 231.14 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +5776,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "C14")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5777,7 +5784,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 110.49 153.67 90)
+		(at 105.41 154.94 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5786,8 +5794,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8d2be06-1bca-409f-bd91-23e32bd14ec5")
-		(property "Reference" "C8"
-			(at 108.712 147.828 90)
+		(property "Reference" "C3"
+			(at 107.188 149.098 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5797,7 +5805,7 @@
 			)
 		)
 		(property "Value" "CAP CER 0603 1NF 16V X7R 10%"
-			(at 123.952 150.368 90)
+			(at 91.948 151.638 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5807,7 +5815,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 110.49 153.67 0)
+			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +5826,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C102K4RECAUTO/8640472"
-			(at 110.49 153.67 0)
+			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,7 +5837,7 @@
 			)
 		)
 		(property "Description" "1000 pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 110.49 153.67 0)
+			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5848,7 +5856,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5866,7 +5874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac98f0a0-5b4a-424c-b286-ae974c8785c4")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR020"
 			(at 228.6 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5926,7 +5934,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR06")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5944,7 +5952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acc7756e-c492-4e50-aa86-ff7dd9294045")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR013"
 			(at 132.08 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6004,7 +6012,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR01")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6022,7 +6030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afcddc4c-f119-4921-a472-7eed870654a5")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR012"
 			(at 128.27 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6082,7 +6090,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR048")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6100,7 +6108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0299ecc-a254-4871-bce8-dacbb9fdbf99")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 166.37 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6305,7 +6313,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6322,7 +6330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9dec22c-af81-476c-bf99-21d17679b04b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR019"
 			(at 220.98 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6383,7 +6391,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "#PWR02")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6400,7 +6408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cabf017b-fb4b-40a3-a7e3-008ed7a687e5")
-		(property "Reference" "R26"
+		(property "Reference" "R4"
 			(at 58.674 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6475,7 +6483,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "R26")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6492,7 +6500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1878b25-2786-4543-93b9-3af4a8947048")
-		(property "Reference" "R15"
+		(property "Reference" "R9"
 			(at 179.578 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +6562,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "R15")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6572,7 +6580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3721c90-4706-4d99-9905-fd6dda8e11ac")
-		(property "Reference" "R3"
+		(property "Reference" "R8"
 			(at 179.07 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +6653,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6653,7 +6661,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 99.06 128.27 90)
+		(at 116.84 129.54 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6662,8 +6671,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3783d9b-7760-469c-9da9-b04033d17c3c")
-		(property "Reference" "R4"
-			(at 102.362 121.666 90)
+		(property "Reference" "R7"
+			(at 113.538 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6673,7 +6682,7 @@
 			)
 		)
 		(property "Value" "RES SMD 39 OHM 5% 1/8W 0603"
-			(at 87.376 124.714 90)
+			(at 128.524 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6683,7 +6692,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.06 128.27 0)
+			(at 116.84 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6694,7 +6703,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/crcw060339r0jnea/1174195"
-			(at 99.06 128.27 0)
+			(at 116.84 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6705,7 +6714,7 @@
 			)
 		)
 		(property "Description" "39 Ohms ±5% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 99.06 128.27 0)
+			(at 116.84 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6716,7 +6725,7 @@
 			)
 		)
 		(property "LCSC" "C2079967"
-			(at 99.06 128.27 90)
+			(at 116.84 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6735,7 +6744,7 @@
 		(instances
 			(project "bms-main"
 				(path "/d7e1c873-142c-4805-8303-47f5b9830fe8/4e7a0d49-6a60-4c8b-a4ed-2f153f3389c3"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)

@@ -2676,7 +2676,7 @@
 				(justify left)
 			)
 		)
-		(pin "CANL_N" input
+		(pin "CAN_N" input
 			(at 194.31 60.96 0)
 			(uuid "2cfee36f-eb29-405c-8a98-0a163bfe2a27")
 			(effects
@@ -2686,7 +2686,7 @@
 				(justify right)
 			)
 		)
-		(pin "CANH_P" input
+		(pin "CAN_P" input
 			(at 194.31 58.42 0)
 			(uuid "df81023c-1041-4d48-a89e-e3c271a26741")
 			(effects

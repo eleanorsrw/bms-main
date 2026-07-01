@@ -1966,7 +1966,7 @@
 		)
 		(uuid "0cb7153c-1da1-4d9d-8d33-6d645c245629")
 	)
-	(hierarchical_label "CANH_P"
+	(hierarchical_label "CAN_P"
 		(shape input)
 		(at 121.92 93.98 180)
 		(effects
@@ -1977,7 +1977,7 @@
 		)
 		(uuid "0ea6c7a0-d605-48d9-bbc4-6f179f6a36a5")
 	)
-	(hierarchical_label "CANL_N"
+	(hierarchical_label "CAN_N"
 		(shape input)
 		(at 177.8 60.96 0)
 		(effects
@@ -1988,7 +1988,7 @@
 		)
 		(uuid "495fb607-6aa7-47cc-acb0-c65f26c1b077")
 	)
-	(hierarchical_label "CANH_P"
+	(hierarchical_label "CAN_P"
 		(shape input)
 		(at 177.8 58.42 0)
 		(effects
@@ -2010,7 +2010,7 @@
 		)
 		(uuid "568078bb-16ac-4f24-a0e5-4886aa12ab01")
 	)
-	(hierarchical_label "CANL_N"
+	(hierarchical_label "CAN_N"
 		(shape input)
 		(at 121.92 127 180)
 		(effects

@@ -1290,7 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 99.06) (xy 121.92 101.6)
+			(xy 121.92 99.06) (xy 121.92 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +1501,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 121.92 101.6 0)
+		(at 121.92 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1512,7 +1512,7 @@
 		(dnp no)
 		(uuid "1b3f7694-b8d8-4331-8dad-55fc83cf7225")
 		(property "Reference" "#PWR049"
-			(at 121.92 107.95 0)
+			(at 121.92 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1522,8 +1522,8 @@
 				)
 			)
 		)
-		(property "Value" "BAT_GND"
-			(at 110.998 103.378 0)
+		(property "Value" "GND"
+			(at 124.46 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1534,7 +1534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 101.6 0)
+			(at 121.92 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1545,7 +1545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 101.6 0)
+			(at 121.92 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1556,7 +1556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 121.92 101.6 0)
+			(at 121.92 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2324,8 +2324,8 @@
 				)
 			)
 		)
-		(property "Value" "BAT_GND"
-			(at 118.364 136.906 0)
+		(property "Value" "GND"
+			(at 119.888 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

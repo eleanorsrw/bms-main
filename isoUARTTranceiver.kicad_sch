@@ -6501,7 +6501,7 @@
 		(dnp no)
 		(uuid "e1878b25-2786-4543-93b9-3af4a8947048")
 		(property "Reference" "R9"
-			(at 179.578 134.62 90)
+			(at 179.324 142.748 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6510,8 +6510,8 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 179.07 136.652 90)
+		(property "Value" "RES 0 OHM JUMPER 1/10W 0603"
+			(at 178.816 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6531,7 +6531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0603ZT0R00/1756908"
 			(at 179.07 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6542,7 +6542,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
 			(at 179.07 139.7 0)
 			(hide yes)
 			(show_name no)

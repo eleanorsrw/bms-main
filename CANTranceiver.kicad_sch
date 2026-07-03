@@ -1507,16 +1507,16 @@
 		(uuid "6e5c2312-bd55-4477-b6c0-be7feb0092aa")
 	)
 	(junction
+		(at 127 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71460489-a786-4313-b4a3-c581871d1d4d")
+	)
+	(junction
 		(at 80.01 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84678860-5604-45a7-8e34-4d31aaca0d44")
-	)
-	(junction
-		(at 127 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad137965-fe21-46c8-8b34-4029dc46cb10")
 	)
 	(junction
 		(at 87.63 55.88)
@@ -1916,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 93.98) (xy 127 93.98)
+			(xy 120.65 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1968,7 +1968,7 @@
 	)
 	(hierarchical_label "CAN_P"
 		(shape input)
-		(at 121.92 93.98 180)
+		(at 120.65 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)

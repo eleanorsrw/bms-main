@@ -2822,7 +2822,7 @@
 				(justify right)
 			)
 		)
-		(pin "IFH_L" input
+		(pin "IFH_N" input
 			(at 66.04 57.15 180)
 			(uuid "4fd10b79-b83e-4319-9404-a5992163e72c")
 			(effects
@@ -2832,7 +2832,7 @@
 				(justify left)
 			)
 		)
-		(pin "IFH_H" input
+		(pin "IFH_P" input
 			(at 66.04 59.69 180)
 			(uuid "508e36f7-5d76-433d-9289-6b73829030d1")
 			(effects
